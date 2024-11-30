@@ -1,0 +1,7 @@
+# Activar el módulo de reescritura
+RewriteEngine On
+
+# Redirigir URLs amigables
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ $1.php [L,QSA]

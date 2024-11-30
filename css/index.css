@@ -1,0 +1,59 @@
+body {
+    background: linear-gradient(45deg, #3498db, #8e44ad);
+    color: #fff;
+}
+
+.card {
+    background-color: #ffffffee;
+}
+
+.form-label {
+    color: #2c3e50;
+}
+
+input.form-control {
+    border-radius: 0.5rem;
+}
+
+button.btn-primary {
+    background-color: #3498db;
+    border-color: #3498db;
+    transition: background-color 0.3s ease;
+}
+
+button.btn-primary:hover {
+    background-color: #2980b9;
+}
+/* Estilos base para el contenedor del formulario */
+#login-card {
+    max-width: 100%;
+    background-color: #ffffffee;
+}
+
+/* Tamaño específico para pantallas grandes */
+@media (min-width: 1200px) {
+    #login-card {
+        max-width: 30%; /* Se ajusta al 30% del ancho en pantallas grandes */
+    }
+}
+
+/* Tamaño específico para pantallas medianas */
+@media (min-width: 768px) and (max-width: 1199px) {
+    #login-card {
+        max-width: 50%; /* Se ajusta al 50% del ancho en pantallas medianas */
+    }
+}
+
+/* Tamaño específico para pantallas pequeñas */
+@media (max-width: 767px) {
+    #login-card {
+        max-width: 80%; /* Se ajusta al 80% del ancho en pantallas pequeñas */
+    }
+}
+
+/* Tamaño específico para pantallas muy pequeñas (celulares) */
+@media (max-width: 575px) {
+    #login-card {
+        max-width: 90%; /* Se ajusta al 90% del ancho en pantallas muy pequeñas */
+    }
+}
